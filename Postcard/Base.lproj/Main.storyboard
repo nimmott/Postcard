@@ -81,20 +81,6 @@
                                     <rect key="frame" x="16" y="320" width="334" height="30"/>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRg-ZK-9HO">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.56713422620577669" blue="0.039619405148341835" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Send Mail">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="21" y="244" width="226" height="30"/>
-                                </variation>
-                                <connections>
-                                    <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xwx-Kp-yi3"/>
-                                </connections>
-                            </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5j-9c-emK">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -113,6 +99,20 @@
                                     <rect key="frame" x="21" y="213" width="226" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRg-ZK-9HO">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.56713422620577669" blue="0.039619405148341835" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Send Mail">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="244" width="226" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xwx-Kp-yi3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -120,9 +120,9 @@
                                 <exclude reference="mUt-n9-6bM"/>
                                 <exclude reference="mKd-jE-ynR"/>
                                 <exclude reference="cPS-U2-bpx"/>
-                                <exclude reference="oRg-ZK-9HO"/>
                                 <exclude reference="Y5j-9c-emK"/>
                                 <exclude reference="RfY-Bv-IUL"/>
+                                <exclude reference="oRg-ZK-9HO"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -130,9 +130,9 @@
                                 <include reference="mUt-n9-6bM"/>
                                 <include reference="mKd-jE-ynR"/>
                                 <include reference="cPS-U2-bpx"/>
-                                <include reference="oRg-ZK-9HO"/>
                                 <include reference="Y5j-9c-emK"/>
                                 <include reference="RfY-Bv-IUL"/>
+                                <include reference="oRg-ZK-9HO"/>
                             </mask>
                         </variation>
                     </view>
