@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ItV-T4-sl3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QBk-WP-yyE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Fbf-Bq-0bY">
@@ -103,6 +104,15 @@
                                     <rect key="frame" x="21" y="72" width="334" height="94"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfY-Bv-IUL">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="21" y="213" width="226" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +122,7 @@
                                 <exclude reference="cPS-U2-bpx"/>
                                 <exclude reference="oRg-ZK-9HO"/>
                                 <exclude reference="Y5j-9c-emK"/>
+                                <exclude reference="RfY-Bv-IUL"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +132,7 @@
                                 <include reference="cPS-U2-bpx"/>
                                 <include reference="oRg-ZK-9HO"/>
                                 <include reference="Y5j-9c-emK"/>
+                                <include reference="RfY-Bv-IUL"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="mKd-jE-ynR" id="Z9T-kJ-7JY"/>
                         <outlet property="mailButton" destination="oRg-ZK-9HO" id="mTI-Ra-7HN"/>
                         <outlet property="messageLabel" destination="Y5j-9c-emK" id="W8c-CO-ZD4"/>
+                        <outlet property="outputName" destination="RfY-Bv-IUL" id="zGr-Cu-U0V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
